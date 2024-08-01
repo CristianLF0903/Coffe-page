@@ -1,0 +1,69 @@
+/* Header.css */
+
+.header {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.header-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.header-nav {
+    margin-top: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 20px 10px;
+    }
+
+    .header-title {
+        font-size: 2rem;
+    }
+
+    .header-description {
+        font-size: 1rem;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
